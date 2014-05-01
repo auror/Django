@@ -6,5 +6,6 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^login/$', 'rlp.views.login_user'),
+    (r'^chat/$', 'rlp.views.chatFunc'),
     url(r'^admin/', include(admin.site.urls)),
 )
